@@ -17,8 +17,8 @@ import {
 } from "@/icons";
 
 const Sidebar = () => {
-  const [openSidebar, setOpenSideBar] = useState(false);
-  const ref = useClick(() => setOpenSideBar(false));
+  const [openSidebar, setOpenSidebar] = useState(false);
+  const ref = useClick(() => setOpenSidebar(false));
 
   useEffect(() => {
     const LS = localStorage.getItem("dashboard-theme");
@@ -62,7 +62,7 @@ const Sidebar = () => {
         {/* sidebar */}
         <button
           className="fixed left-3 top-5 p-2 z-30 sm:hidden rounded-full bg-primary"
-          onClick={() => setOpenSideBar((prev) => !prev)}
+          onClick={() => setOpenSidebar((prev) => !prev)}
         >
           <OpenBar />
         </button>
