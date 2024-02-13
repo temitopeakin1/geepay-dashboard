@@ -1,6 +1,7 @@
 import { ordersData } from '@/dummy';
 import { DownloadIcon } from '@/icons'
 import React from 'react'
+import Image from "next/image";
 
 const OrderBox = ({ order}: { order: (typeof ordersData)[0]}) => {
     const { amount, date, img, name, status } = order;
@@ -8,7 +9,7 @@ const OrderBox = ({ order}: { order: (typeof ordersData)[0]}) => {
   return (
     <div className="py-4 flex items-center gap-2">
       <div className="flex gap-2.5 items-center flex-[1.5]">
-      <image alt={name} src={img} height={32} width={32} />
+      <Image alt={name} src={img} height={32} width={32} />
         <span className="dark:text-gray-400 text-secondary font-medium">
           {name}
         </span>
