@@ -13,7 +13,7 @@ const Header = () => {
         <div className="hidden lg:flex gap-2 items-center">
           <CalenderIcon />
           <span className="font-Inter text-sm font-medium">
-            November 15, 2023
+            November 02, 2023
           </span>
         </div>
 

@@ -10,8 +10,19 @@
   }
 }
 
-.scrollbar::-webkit-scrollbar {
+/* .scrollbar::-webkit-scrollbar {
   display: none;
+} */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #34CAA5;
+  border-radius: 40px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 * {
