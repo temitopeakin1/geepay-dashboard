@@ -53,6 +53,58 @@ export const salesData = [
   },
 ];
 
+export const salesDataWeekly = [
+  {
+    Weekly: "Week 1",
+    sale: 78
+  },
+  {
+    Weekly: "Week 2",
+    sale: 56
+  },
+  {
+    Weekly: "Week 3",
+    sale: 65
+  },
+  {
+    Weekly: "Week 4",
+    sale: 98
+  }
+]
+
+
+
+export const salesDataDaily = [
+  {
+    day: "Monday",
+    sale: 26,
+  },
+  {
+    day: "Tuesday",
+    sale: 14,
+  },
+  {
+    day: "Wednesday",
+    sale: 46,
+  },
+  {
+    day: "Thursday",
+    sale: 23,
+  },
+  {
+    day: "Friday",
+    sale: 26,
+  },
+  {
+    day: "Saturday",
+    sale: 26,
+  },
+  {
+    day: "Saturday",
+    sale: 26,
+  },
+];
+
 export const comparisonData = [
   {
     Icon: BoxTickIcon,
