@@ -1,5 +1,3 @@
-import React from 'react'
-
 const MoonIcon = () => {
   return (
     <svg
@@ -74,7 +72,6 @@ const MoonIcon = () => {
         </clipPath>
       </defs>
     </svg>
-
   );
 };
 

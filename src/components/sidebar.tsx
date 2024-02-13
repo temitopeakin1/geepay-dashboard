@@ -115,7 +115,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 2xl:gap-8 items-center mb-10">
+        <div className="flex flex-col gap-6 2xl:gap-8 items-center -mt-20">
           <button className="p-2 rounded-full bg-transparent hover:bg-primary/20 transition-colors duration-500 relative">
             <ArrowRightIcon />
           </button>

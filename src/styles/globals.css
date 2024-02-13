@@ -10,9 +10,9 @@
   }
 }
 
-/* .scrollbar::-webkit-scrollbar {
+.scrollbar::-webkit-scrollbar {
   display: none;
-} */
+}
 
 ::-webkit-scrollbar {
   width: 5px;
