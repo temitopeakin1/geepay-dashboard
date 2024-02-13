@@ -1,7 +1,6 @@
-import { motion } from "framer-motion";
-import SalesTrendSortBox from "./salesTrendSortBox";
 import { range, salesData } from "@/dummy";
-
+import SalesTrendSortBox from "./salesTrendSortBox";
+import { motion } from "framer-motion";
 
 const SalesTrend = () => {
   return (
@@ -22,9 +21,9 @@ const SalesTrend = () => {
                 <div key={index} className="flex gap-6 justify-end">
                   <span className="w-[46px] text-center text-[#898989] text-xs -mb-2">
                     {data}
-                    {data === 0 ? "" : ".00"}
+                    {data === 0 ? "" : ".000"}
                   </span>
-                  <span className="w-full dark:border-gray-600 border-dashed border-b" />
+                  <span className="w-full dark:border-gray-600 border-b border-dashed" />
                 </div>
               ))}
             </div>
@@ -63,7 +62,7 @@ const SalesTrend = () => {
 
 const Tooltip = ({ sale }: { sale: number }) => (
   <span className="absolute -top-9 opacity-0 left-1/2 -translate-x-1/2 text-xs font-medium dark:bg-gray-200 bg-[#090C2C] rounded-md px-3 py-2 dark:text-black text-white transition-all duration-300 group-hover:-top-12 group-hover:opacity-100">
-    ${sale}.00
+    ${sale}.000
     <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 border-[10px] border-b-0 dark:border-t-gray-200 border-t-[#090C2C] border-l-transparent border-r-transparent" />
   </span>
 );
@@ -71,7 +70,7 @@ const Tooltip = ({ sale }: { sale: number }) => (
 const GradientAnimation = () => (
   <>
     <span className="absolute rounded-t-full bg-gradient-new inset-0 opacity-0 transition-all duration-500 group-hover:opacity-100" />
-    <span className="absolute rounded-t-full bg-primary/10 dark:bg-primary/15 inset-0 opacity-100 transition-all duration-500 group-hover:opacity-0" />
+    <span className="absolute rounded-t-full bg-sky-500/[.06] dark:bg-sky-500/[.35] inset-0 opacity-100 transition-all duration-500 group-hover:opacity-50" />
   </>
 );
 

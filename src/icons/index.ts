@@ -2,7 +2,7 @@ import ArrowRightIcon from "./arrowRight";
 import BellIcon from "./bell";
 import BoxIcon from "./box";
 import BoxTickIcon from "./boxTick";
-import CalenderIcon from "./calender";
+import CalendarIcon from "./calendar";
 import CategoryIcon from "./category";
 import CoinIcon from "./coin";
 import DecreaseGraph from "./decreaseGraph";
@@ -27,7 +27,7 @@ export {
   ArrowRightIcon,
   BellIcon,
   BoxIcon,
-  CalenderIcon,
+  CalendarIcon,
   DiscountIcon,
   InfoIcon,
   Logo,

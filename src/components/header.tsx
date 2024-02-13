@@ -1,4 +1,4 @@
-import { BellIcon, CalenderIcon } from "@/icons";
+import { BellIcon, CalendarIcon } from "@/icons";
 import React from "react";
 import SearchBar from "./searchbar";
 import UserDropdown from "./userDropdown";
@@ -11,7 +11,7 @@ const Header = () => {
         <SearchBar />
 
         <div className="hidden lg:flex gap-2 items-center">
-          <CalenderIcon />
+          <CalendarIcon />
           <span className="font-Inter text-sm font-medium">
             November 02, 2023
           </span>
