@@ -1,73 +1,73 @@
 import { BoxTickIcon, CartIcon, CoinIcon, RotateBoxIcon } from "@/icons";
 
-export const range = [60, 50, 40, 30, 30, 10, 0];
+export const range = [75, 60, 45, 30, 15, 10, 0];
 
 export const salesData = [
   {
     month: "Jan",
-    sale: 15,
+    sale: 26,
   },
   {
     month: "Feb",
-    sale: 28,
+    sale: 54,
   },
   {
     month: "Mar",
-    sale: 6,
+    sale: 34,
   },
   {
     month: "Apr",
-    sale: 38,
+    sale: 22,
   },
   {
     month: "May",
-    sale: 19,
+    sale: 10,
   },
   {
     month: "Jun",
-    sale: 50,
+    sale: 23,
   },
   {
     month: "Jul",
-    sale: 19,
+    sale: 56,
   },
   {
     month: "Aug",
-    sale: 30,
+    sale: 29,
   },
   {
     month: "Sep",
-    sale: 43,
+    sale: 12,
   },
   {
     month: "Oct",
-    sale: 9,
+    sale: 29,
   },
   {
     month: "Nov",
-    sale: 40,
+    sale: 58,
   },
   {
     month: "Dec",
-    sale: 37,
+    sale: 24,
   },
 ];
 
 export const salesDataWeekly = [
   {
-    Weekly: "Week 1",
+    Weekly: "Week One",
     sale: 78
   },
   {
-    Weekly: "Week 2",
+    Weekly: "Week Two",
     sale: 56
   },
   {
-    Weekly: "Week 3",
+    Weekly: "Week Three",
     sale: 65
   },
   {
-    Weekly: "Week 4",
+    Weekly: "Week Four",
     sale: 98
   }
 ]
@@ -199,6 +199,13 @@ export const ordersData = [
   {
     img: "/img/user5.png",
     name: "Martin Odegaard",
+    date: "Nov 13, 2023",
+    amount: "78,000",
+    status: "paid",
+  },
+  {
+    img: "/img/user5.png",
+    name: "Ron kenoly",
     date: "Nov 13, 2023",
     amount: "78,000",
     status: "paid",

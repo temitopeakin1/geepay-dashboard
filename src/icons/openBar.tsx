@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const openBarIcon = () => (
-    <svg
+const OpenBar = () => (
+  <svg
     xmlns="http://www.w3.org/2000/svg"
     width="14"
     height="14"
@@ -15,4 +15,4 @@ const openBarIcon = () => (
   </svg>
 );
 
-export default openBarIcon
+export default OpenBar;

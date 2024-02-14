@@ -21,7 +21,7 @@ const SalesTrend = () => {
                 <div key={index} className="flex gap-6 justify-end">
                   <span className="w-[46px] text-center text-[#898989] text-xs -mb-2">
                     {data}
-                    {data === 0 ? "" : ".000"}
+                    {data === 0 ? "" : ".00"}
                   </span>
                   <span className="w-full dark:border-gray-600 border-b border-dashed" />
                 </div>
@@ -62,7 +62,7 @@ const SalesTrend = () => {
 
 const Tooltip = ({ sale }: { sale: number }) => (
   <span className="absolute -top-9 opacity-0 left-1/2 -translate-x-1/2 text-xs font-medium dark:bg-gray-200 bg-[#090C2C] rounded-md px-3 py-2 dark:text-black text-white transition-all duration-300 group-hover:-top-12 group-hover:opacity-100">
-    ${sale}.000
+    ${sale}.00
     <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 border-[10px] border-b-0 dark:border-t-gray-200 border-t-[#090C2C] border-l-transparent border-r-transparent" />
   </span>
 );
